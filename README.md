@@ -125,9 +125,6 @@ git push -u origin main
 
 Never commit `.env` or the SQLite database.
 
-## Interview explanation
-
-> I built an automated ELT weather pipeline using Python and the OpenWeatherMap API. Python extracts current weather responses as JSON and loads the complete raw payload into SQLite so the original source data is preserved. SQL then parses and cleans the JSON into an analytical weather table. Linux cron automates the complete pipeline on a fixed schedule.
 
 ## Strong upgrades
 
